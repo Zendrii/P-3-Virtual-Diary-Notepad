@@ -1,4 +1,4 @@
-print('\033[92m='*158)
+print('\033[92m='*150)
 
 def entry():
     # ask user for input
@@ -15,7 +15,7 @@ while True:
     time.sleep(1)
     choice = input('\nDo you want to add more? (y/n) ')
     # if yes, start again
-    print('\033[92m='*158)
+    print('\033[92m='*150)
     # if no, end program
     if choice == 'n':
         break
